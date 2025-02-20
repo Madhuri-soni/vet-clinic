@@ -1,0 +1,141 @@
+/* common for whole page
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.html {
+  font-size: 62.5%;
+}
+.body {
+  font-family: sans-serif;
+  line-height: 1;
+
+  font-family: "Rubik", sans-serif;
+}*/
+/*------------header-start-------------*/
+/*------------header-start-------------*/
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  /*because we want our header to be sticky thats why we are giving it a specifie height*/
+  height: 6.4rem;
+  padding: 0 2.4rem;
+}
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.home-page:link,
+.home-page:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #6482ad;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+.home-page:hover,
+.home-page:active {
+  color: #e67e22;
+}
+.home-page.nav-cta:link,
+.home-page.nav-cta:visited {
+  padding: 0.4rem 0.8rem;
+  border-radius: 150px;
+  background-color: #6482ad;
+  color: #fdf2e9;
+}
+.home-page.nav-cta:hover,
+.home-page.nav-cta:active {
+  background-color: #4158a6;
+}
+.doctor-name {
+  color: #4158a6;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.dog-paw {
+  color: #4158a6;
+  font-size: 2rem;
+}
+.home-page {
+  font-size: 1.2rem;
+}
+/*-----------header-end-----------*/
+/*-----------header-end-----------*/
+.main-section {
+  background-color: #fff8f3;
+}
+.section-hero {
+  display: flex;
+}
+.section-hero-2 {
+  margin-top: 3.6rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pet-image {
+  width: 50%; /* Full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Ensures the image covers the entire area */
+}
+.pet-dog {
+  margin: 0;
+  font-size: 8.2rem;
+  font-weight: 900;
+  color: #4158a6;
+}
+.section-hero-1 {
+  margin-left: 3.2rem;
+}
+.pet-para {
+  margin: 0;
+  font-size: 1rem;
+  color: #4158a6;
+}
+.click-me {
+  margin-top: 3.2rem;
+  background-color: #6482ad; /* Blue background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 20px; /* Rounded edges */
+  padding: 10px 20px; /* Padding for size */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 3s; /* Transition for background color */
+}
+
+.click-me:hover {
+  background-color: #4158a6; /* Dark blue on hover */
+}
+
+.section-hero-1 {
+  /* Optional: centers the content */
+}
+
+.pet-dog {
+  margin: 0; /* Remove default margins */
+}
+
+.pet-para {
+  margin: 0; /* Remove default margins */
+}
+
+/* Optional: add some padding for better visual spacing */
+.section-hero-1 {
+  padding: 20px; /* Adjust as needed */
+}
